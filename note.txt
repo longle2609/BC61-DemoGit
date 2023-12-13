@@ -13,7 +13,22 @@
 10. lệnh giúp chuyển main: git checkout (tên nhánh muốn chuyển)
 11. lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới) main - devA
 
-sdsadasdadadasdasd
-ádadasdasdasdddddddddddddd
-ádaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-ádddddddddddddddddddddddddddđ
+// lệnh theo thứ tự khi khi có nhánh muốn merge
+git checkout (tên nhánh)
+....
+git add .
+git commit -m ''
+git push 
+git checkout master (main)
+git pull 
+git merge (tên nhánh)
+...
+git add .
+git commit -m ''
+git push
+
+// một số lưu ý khi merge code 
+- khi nhánh phụ merge code lên nhánh chính, sẽ có những lỗi xung đột phát sinh và sẽ đi chọn phương án, đẩy lên remote repo
+- khi nhánh chính đã hoàn thành quá trình merge và fix xung đột, các nhánh phụ sẽ thực hiện quá trình merge code từ nhánh chính vào nhánh phụ đề lấy các thay đổi mới nhất về
+
+
