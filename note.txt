@@ -5,11 +5,10 @@
 4. Lệnh giúp tạo một phiên bản để quản lý các sự thay đổi đã xảy ra, git commit -m "nội dung lời nhắn"
 5. Lệnh giúp kết nối remote repo với local repo: git remote add origin (url của remote repo)
 6. Lệnh giúp đẩy code từ local repo lên remote repo: 2 trường hợp xảy ra, nếu là lần đầu tiên từ local repo đẩy lên github thì sẽ là git push -u origin (tên nhánh: main hoặc master), git push
-7.
-8.
+7.lệnh giúp clone (lấy một bản sao) một dự án từu trên github về máy tính: git clone (url của remote repo)
+8.Lệnh giúp lấy sự thay đổi mới nhất từ remote về máy tính: git pull origin (tên nhánh trên remote repo)
 
 // Branch
 9. lệnh tạo nhánh mới: git branch (tên nhánh mới)
 10. lệnh giúp chuyển main: git checkout (tên nhánh muốn chuyển)
 11. lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới) main - devA
-sddadada
